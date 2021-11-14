@@ -15,7 +15,7 @@
       },
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
-         "required": false,
+         "required": true,
          "value": ""
       },
       "DEL_CMDS": {
@@ -38,11 +38,13 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "792109647"
+         "required": true,
+         "value": ""
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "Khoi"
+         "required": true,
+         "value": "@khoi2710"
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.)",
@@ -55,11 +57,13 @@
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
-         "value": "-xyz"
+         "required": true,
+         "value": "Rick Astley"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information",
-         "value": "-xyz"
+         "required": true,
+         "value": "never gonna give you up"
       },
       "PORT": {
          "description": "Port to use for your webhooks.",
@@ -77,7 +81,7 @@
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
-         "required": false,
+         "required": true,
          "value": "615304572"
       },
       "TIGER_USERS": {
